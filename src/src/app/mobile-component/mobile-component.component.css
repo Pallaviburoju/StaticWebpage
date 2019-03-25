@@ -1,0 +1,67 @@
+h4{
+    color:blue;
+}
+
+h5{
+    color: blue;
+}
+h3{
+    color:gray;
+}
+.auth{
+    color:gray;
+}
+.border-left{
+border-left-width: thick;
+border-left-color: grey;
+}
+
+.form-actions{
+    text-align: center;
+    }
+.card-title{
+    color:black;
+}
+
+/* Float four columns side by side */
+#card-col {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  #card-row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  #card-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    #card-col {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  #card-c {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+   
+  }
+  .jumbo2{
+      font-style: italic;
+  }
+  .contact{
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .btn-link{
+    color: black;
+  }
